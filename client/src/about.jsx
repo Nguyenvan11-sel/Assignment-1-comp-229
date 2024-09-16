@@ -2,9 +2,9 @@
 import ux from "../src/assets/ux.png";
 import web from "../src/assets/web.png";
 import app from "../src/assets/app.png";
-
 import "../src/index.css";
 import "../src/about.css";
+
 export default function About() {
   return (
     <>
@@ -24,7 +24,6 @@ export default function About() {
             <p>This is a demo text, you can write your own content here.</p>
           </div>
         </div>
-
         <div className="skillBar">
           <img src={web} alt="WebDesign" className="skillBarImg" />
           <div className="skillBarText">
@@ -34,7 +33,6 @@ export default function About() {
             </p>
           </div>
         </div>
-
         <div className="skillBar">
           <img src={app} alt="AppDesign" className="skillBarImg" />
           <div className="skillBarText">

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import football1 from "../src/assets/football1.jfif";
+
 export default function Layout() {
   return (
     <>
@@ -12,7 +13,6 @@ export default function Layout() {
         height="50px"
       />
       <h1>My Portfolio</h1>
-
       <nav>
         <Link to="/">Home</Link> | <Link to="/about">About</Link> |{" "}
         <Link to="/education">Education</Link>|{" "}
