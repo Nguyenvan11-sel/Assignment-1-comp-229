@@ -1,4 +1,3 @@
-
 import ux from "../src/assets/ux.png";
 import web from "../src/assets/web.png";
 import app from "../src/assets/app.png";
