@@ -4,7 +4,7 @@ import project3 from "../src/assets/project3.jpg";
 import project4 from "../src/assets/project4.jpg";
 import project5 from "../src/assets/project5.jpg";
 import project6 from "../src/assets/project6.jpg";
-import { Link } from "react-router-dom";
+
 import "../src/index.css";
 import "../src/project.css";
 export default function Project() {
