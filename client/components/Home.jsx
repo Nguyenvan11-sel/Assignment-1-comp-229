@@ -11,12 +11,14 @@ export default function Home() {
         id="intro"
         sx={{
           display: "flex",
-          flexDirection: "row",
+          flexDirection: { xs: "column", md: "row" },
           alignItems: "center",
           justifyContent: "space-between",
+          gap: 4, 
         }}
       >
-        <Box sx={{ flexGrow: 1, pr: 4 }}>
+        {/* Text Content */}
+        <Box sx={{ flexGrow: 1, textAlign: { xs: "center", md: "left" } }}> 
           <Typography variant="h3" component="span" gutterBottom>
             Hello,
           </Typography>
@@ -31,7 +33,16 @@ export default function Home() {
             appealing and user-friendly websites.
           </Typography>
           <Link to="/contact" style={{ textDecoration: "none" }}>
-            <Button variant="contained" color="primary" size="large">
+            <Button
+              variant="contained"
+              color="primary"
+              size="large"
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                mt: 2,
+              }}
+            >
               <img
                 src={hire}
                 alt="Hire me"
@@ -41,11 +52,18 @@ export default function Home() {
             </Button>
           </Link>
         </Box>
+
+        {/* Profile Image */}
         <Box>
           <img
             src={BBG}
             alt="Blessing Ajiboye's profile"
-            style={{ width: "350px", height: "350px", borderRadius: "50%" }}
+            style={{
+              width: "350px",
+              height: "350px",
+              borderRadius: "50%",
+              objectFit: "cover", 
+            }}
           />
         </Box>
       </Box>

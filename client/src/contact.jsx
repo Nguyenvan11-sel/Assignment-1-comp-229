@@ -1,5 +1,4 @@
 import "../src/contact.css";
-
 export default function Contact() {
   return (
     <>
