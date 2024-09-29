@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, Typography, Grid, Box, Button, Card, CardMedia } from "@mui/material";
+import {
+  Container,
+  Typography,
+  Grid,
+  Box,
+  Button,
+  Card,
+  CardMedia,
+} from "@mui/material";
 import project1 from "../src/assets/project1.png";
 import project2 from "../src/assets/project2.jpg";
 import project3 from "../src/assets/project3.jpg";
@@ -18,7 +26,7 @@ export default function Project() {
       <Typography
         variant="body1"
         align="center"
-        color="white"
+        color="text.secondary"
         paragraph
         sx={{ maxWidth: 700, mx: "auto", mb: 6 }}
       >

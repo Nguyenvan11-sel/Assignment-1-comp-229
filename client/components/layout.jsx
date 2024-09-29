@@ -8,7 +8,7 @@ export default function Layout() {
     <>
       <AppBar position="static">
         <Toolbar>
-          <Box sx={{ display: 'flex', alignItems: 'center', mr: 2 }}>
+          <Box sx={{ display: "flex", alignItems: "center", mr: 2 }}>
             <img
               src={football1}
               alt="football"

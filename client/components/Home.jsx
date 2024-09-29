@@ -14,16 +14,16 @@ export default function Home() {
           flexDirection: { xs: "column", md: "row" },
           alignItems: "center",
           justifyContent: "space-between",
-          gap: 4, 
+          gap: 4,
         }}
       >
         {/* Text Content */}
-        <Box sx={{ flexGrow: 1, textAlign: { xs: "center", md: "left" } }}> 
+        <Box sx={{ flexGrow: 1, textAlign: { xs: "center", md: "left" } }}>
           <Typography variant="h3" component="span" gutterBottom>
             Hello,
           </Typography>
           <Typography variant="h4" component="span">
-            I am <strong>Blessing Ajiboye</strong>
+            I am <strong>Nguyen Van </strong>
           </Typography>
           <Typography variant="h6" component="div" gutterBottom>
             Website Designer
@@ -62,7 +62,7 @@ export default function Home() {
               width: "350px",
               height: "350px",
               borderRadius: "50%",
-              objectFit: "cover", 
+              objectFit: "cover",
             }}
           />
         </Box>

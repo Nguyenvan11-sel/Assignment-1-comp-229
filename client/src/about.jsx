@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, Typography, Grid, Card, CardContent, CardMedia, Box } from "@mui/material";
+import {
+  Container,
+  Typography,
+  Grid,
+  Card,
+  CardContent,
+  CardMedia,
+  Box,
+} from "@mui/material";
 import ux from "../src/assets/ux.png";
 import web from "../src/assets/web.png";
 import app from "../src/assets/app.png";
